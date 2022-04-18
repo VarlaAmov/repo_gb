@@ -1,3 +1,4 @@
+#Commit
 #2 Задание
 print('Часть а:')
 numbers = [x ** 3 for x in range(1, 1000, 2)]
