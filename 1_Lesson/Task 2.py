@@ -1,4 +1,4 @@
-# 2 Задание.
+# 2 Задание
 print('Часть а:')
 numbers = [x ** 3 for x in range(1, 1000, 2)]
 count = 0
@@ -9,7 +9,7 @@ for res1 in numbers:
     count += 1
 
 print('\nЧасть b:')
-numbers = [x ** 3 for x in range(1, 1000, 2)] 
+numbers = [x ** 3 for x in range(1, 1000, 2)]
 count = 0
 for res1 in numbers:
     res2 = numbers[count] + 17
