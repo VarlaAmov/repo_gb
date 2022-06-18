@@ -1,0 +1,56 @@
+01.
+Евгений@DESKTOP-THPB0O3 C:\Users\Евгений\AppData\Local\Programs\Python\Python310\Scripts   
+$ pip list                                                                                 
+Package            Version                                                                 
+------------------ ---------                                                               
+certifi            2021.10.8                                                               
+charset-normalizer 2.0.12                                                                  
+idna               3.3                                                                     
+pip                21.2.4                                                                  
+requests           2.27.1                                                                  
+setuptools         58.1.0                                                                  
+urllib3            1.26.9
+
+02.
+Евгений@DESKTOP-THPB0O3 C:\Users\Евгений\AppData\Local\Programs\Python\Python310\Scripts
+$ pip install pillow
+Collecting pillow
+  Downloading Pillow-9.1.0-cp310-cp310-win_amd64.whl (3.3 MB)
+     |████████████████████████████████| 3.3 MB 2.2 MB/s
+Installing collected packages: pillow
+Successfully installed pillow-9.1.0          
+
+03.
+Евгений@DESKTOP-THPB0O3 D:\GB_env
+$ py -m venv ENV_1
+
+Евгений@DESKTOP-THPB0O3 D:\GB_env
+$ cd ENV_1
+
+Евгений@DESKTOP-THPB0O3 D:\GB_env\ENV_1
+$ cd Scripts
+
+Евгений@DESKTOP-THPB0O3 D:\GB_env\ENV_1\Scripts
+$ activate.bat
+
+(ENV_1) Евгений@DESKTOP-THPB0O3 D:\GB_env\ENV_1\Scripts
+$ pip list
+Package    Version
+---------- -------
+pip        21.2.4
+setuptools 58.1.0           
+
+04.
+(ENV_1) Евгений@DESKTOP-THPB0O3 D:\GB_env\ENV_1\Scripts
+$ pip install Pillow==9.0.0
+Collecting Pillow==9.0.0
+  Downloading Pillow-9.0.0-cp310-cp310-win_amd64.whl (3.2 MB)
+     |████████████████████████████████| 3.2 MB 819 kB/s
+Installing collected packages: Pillow
+Successfully installed Pillow-9.0.0               
+
+05.
+(ENV_1) Евгений@DESKTOP-THPB0O3 D:\GB_env\ENV_1\Scripts
+$ deactivate.bat
+Евгений@DESKTOP-THPB0O3 D:\GB_env\ENV_1\Scripts
+$                              
